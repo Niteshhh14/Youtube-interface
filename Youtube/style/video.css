@@ -1,0 +1,61 @@
+.t1{
+    width: 100%;
+    cursor: pointer;
+}
+.vgrid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    cursor: pointer;
+}
+.pro{
+    width: 38px;
+    border-radius: 50%;
+}
+.title{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    line-height: 20px;
+}
+.trow{
+    margin-bottom: 12px;
+    position: relative;
+}
+.chname,.stats{
+    margin-top: 0px;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
+.chname{
+    margin-bottom: 1px ;
+    position: relative;
+}
+.ygrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+.time{
+    font-family: Roboto,Arial;
+    color: white;
+    background-color: rgba(12, 12, 12, 0.5);
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    pointer-events: none;
+}
+.v1{
+    transition: opacity 0.15s;
+}
+.v1:active{
+    opacity: 0.8;
+}

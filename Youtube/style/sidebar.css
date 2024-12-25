@@ -1,0 +1,32 @@
+.sidebar{
+    position: fixed;
+    top: 55px;
+    bottom: 0px;
+    width: 72px;
+    left: 0px;
+    background-color: white; 
+    z-index: 200;  
+}
+.side{
+    height: 76px;
+}
+.Home{
+    height: 72px;
+    width: 72px;
+    border: none;
+    font-size: 10px;
+    background-color: white;
+    cursor: pointer;
+
+    
+}
+.Home:hover{
+    background-color: rgb(216, 216, 216);
+}
+.home{
+    height: 35%;
+
+}
+.shorts{
+    height: 35%;
+}
